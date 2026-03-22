@@ -1,20 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/assets/:path*",
-      "destination": "/markat/assets/:path*"
-    },
-    {
-      "source": "/env.json",
-      "destination": "/markat/env.json"
-    },
-    {
-      "source": "/favicon.ico",
-      "destination": "/markat/favicon.ico"
-    },
-    {
       "source": "/(.*)",
-      "destination": "/markat/index.html"
+      "destination": "/index.html"
     }
   ]
 }
